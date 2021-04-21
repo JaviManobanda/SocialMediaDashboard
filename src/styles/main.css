@@ -1,0 +1,40 @@
+@import "../styles/var.css";
+@import "../styles/components/header.css";
+@import "../styles/components/socialTarget.css";
+@import "../styles//components/pageStatus.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--font_style);
+}
+
+main{
+    margin-bottom: 30px;
+}
+
+body{
+    background: var(--body_theme);
+    color: var(--Very_Dark_Blue_Text);
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 100ms !important;
+  transition-delay: 0 !important;
+}
+
+.red-text{
+    color: var(--Bright_Red);
+}
+
+.green-text{
+    color: var(--Lime_Green);
+}

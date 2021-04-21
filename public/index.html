@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="../src/styles/main.css" id="theme-light" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header_title_container">
+        <h2 class="header__title">Social Media Dashboard</h2>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="header__toggle-container">
+        <span>Dark Mode</span>
+        <label class="switch" id="switch" for="toggle-theme">
+          <input type="checkbox" id="toggle-theme" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <main>
+      <section class="social-media">
+        <div class="social-target facebook">
+          <picture class="social-target__picture">
+            <img
+              src="../src/asset/image/icon-facebook.svg"
+              alt="logo social media"
+            />
+            <span>@javiVeinte</span>
+          </picture>
+          <div class="social-target__data">
+            <h4>1987</h4>
+            <h6>Followers</h6>
+          </div>
+          <picture class="social-target__status">
+            <img src="../src//asset/image/icon-up.svg" alt="" />
+            <span>12 Today</span>
+          </picture>
+        </div>
+
+        <div class="social-target twitter">
+          <picture class="social-target__picture">
+            <img
+              src="../src/asset/image/icon-twitter.svg"
+              alt="logo social media"
+            />
+            <span>@javiVeinte</span>
+          </picture>
+          <div class="social-target__data">
+            <h4>1044</h4>
+            <h6>Followers</h6>
+          </div>
+          <picture class="social-target__status">
+            <img src="../src//asset/image/icon-up.svg" alt="" />
+            <span>99 Today</span>
+          </picture>
+        </div>
+
+        <div class="social-target instagram">
+          <picture class="social-target__picture">
+            <img
+              src="../src/asset/image/icon-instagram.svg"
+              alt="logo social media"
+            />
+            <span>@javiVeinte</span>
+          </picture>
+          <div class="social-target__data">
+            <h4>11k</h4>
+            <h6>Followers</h6>
+          </div>
+          <picture class="social-target__status">
+            <img src="../src//asset/image/icon-up.svg" alt="" />
+            <span>1090 Today</span>
+          </picture>
+        </div>
+
+        <div class="social-target youtube">
+          <picture class="social-target__picture">
+            <img
+              src="../src/asset/image/icon-youtube.svg"
+              alt="logo social media"
+            />
+            <span>@javiVeinte</span>
+          </picture>
+          <div class="social-target__data">
+            <h4>8239</h4>
+            <h6>Followers</h6>
+          </div>
+          <picture class="social-target__status">
+            <img src="../src//asset/image/icon-down.svg" alt="" />
+            <span class="red-text">144 Today</span>
+          </picture>
+        </div>
+      </section>
+
+      <section class="overview-section">
+        <h1>Overview - Today</h1>
+      </section>
+
+      <section class="page-status">
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-facebook.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>87</span>
+            <div>
+              <img src="../src/asset/image/icon-up.svg" alt="" />
+              <span>3%</span>
+            </div>
+          </picture>
+        </div>
+
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-facebook.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>52</span>
+            <div>
+              <img src="../src/asset/image/icon-down.svg" alt="" />
+              <span class="red-text">2%</span>
+            </div>
+          </picture>
+        </div>
+
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-instagram.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>5462</span>
+            <div>
+              <img src="../src/asset/image/icon-up.svg" alt="" />
+              <span>2257%</span>
+            </div>
+          </picture>
+        </div>
+
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-instagram.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>52k</span>
+            <div>
+              <img src="../src/asset/image/icon-up.svg" alt="" />
+              <span>1375%</span>
+            </div>
+          </picture>
+        </div>
+
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-twitter.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>117</span>
+            <div>
+              <img src="../src/asset/image/icon-up.svg" alt="" />
+              <span>303%</span>
+            </div>
+          </picture>
+        </div>
+
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-twitter.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>507</span>
+            <div>
+              <img src="../src/asset/image/icon-up.svg" alt="" />
+              <span>553%</span>
+            </div>
+          </picture>
+        </div>
+
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-youtube.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>107</span>
+            <div>
+              <img src="../src/asset/image/icon-down.svg" alt="" />
+              <span class="red-text">19%</span>
+            </div>
+          </picture>
+        </div>
+
+        <div class="page-status-target">
+          <picture class="page-status__items flexDisplay">
+            <span>Page Views</span>
+            <img src="../src/asset/image/icon-youtube.svg" alt="" />
+          </picture>
+
+          <picture class="page-status__value flexDisplay">
+            <span>1407</span>
+            <div>
+              <img src="../src/asset/image/icon-down.svg" alt="" />
+              <span class="red-text">12%</span>
+            </div>
+          </picture>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="../src/ToggleTheme.js"></script>
+</html>

@@ -1,0 +1,35 @@
+:root{
+        /* Primary */
+    --Lime_Green: hsl(163, 72%, 41%);
+    --Bright_Red: hsl(356, 69%, 56%);
+    --Facebook: hsl(208, 92%, 53%);
+    --Twitter: hsl(203, 89%, 53%);
+    --YouTube: hsl(348, 97%, 39%);
+    --Font_size: 1.4rem;
+    --font_style: 'Inter', sans-serif;
+}
+
+
+body{
+    /* Light Theme */
+    --body_theme: hsl(0, 0%, 100%);
+
+    --White_BG: hsl(0, 0%, 100%);
+    --Very_Pale_Blue_Top_BG_Pattern: #f5f7ff;
+    --Light_Grayish_Blue_Card_BG: #f0f2fa;
+    --Dark_Grayish_Blue_Text: #63687e;
+    --Very_Dark_Blue_Text: hsl(230, 17%, 14%);
+
+    
+}
+
+.dark-theme{
+    /* Dark Theme */
+    --body_theme: hsl(228, 28%, 20%);
+
+    --White_BG: hsl(230, 17%, 14%);
+    --Very_Pale_Blue_Top_BG_Pattern: hsl(232, 19%, 15%);
+    --Light_Grayish_Blue_Card_BG: hsl(230, 27%, 26%);
+    --Dark_Grayish_Blue_Text: hsl(228, 34%, 66%);
+    --Very_Dark_Blue_Text:hsl(0, 0%, 100%);
+}
