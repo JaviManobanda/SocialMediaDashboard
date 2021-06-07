@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Imagen Project](https://i.imgur.com/MThj4Z5.png)
+![Imagen Project](https://i.imgur.com/piIsoii.png)
 
 
 ### Built With
